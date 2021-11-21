@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+.header{
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      
+}
+.left{
+    width:150px;
+    padding:5px;
+    border: 1px solid black;
+}
+.left>p{
+    margin: 0px;
+    text-align: center;
+}
+.centre{
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    width: 150px;
+}
+.right>p{
+    margin: 0px;
+}
+.date{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+}
+.class{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+}
+.box1{
+    height: auto;
+    width: 50%;
+}
+.box1>p{
+    text-align: justify
+}
+.box2{
+    
+    width: 400px;
+    text-align: center;
+    border-left: 1px solid black;
+}
+.childbox2{
+display: flex;
+justify-content: space-between;
+    height: auto;
+    width: 100px;
+    
+}
+.chbox2{
+    display: flex;
+    width: 400px;
+}
+.childbox3{
+    width: 400px;
+    border-left: 1px solid black;
+}
+.box4{
+    width:250px;
+    border-right: 1px solid black;
+}
+.childbox4{
+    display: flex;
+    justify-content: space-around;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.box5{
+    text-align: center;
+}
+.chbox5{
+    display: flex;
+    justify-content: space-between;
+}
